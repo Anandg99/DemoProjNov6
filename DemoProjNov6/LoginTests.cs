@@ -21,9 +21,9 @@ namespace DemoProjNov6
         public void Setup()
         {
             Console.WriteLine("I am from setup method");
-            dr = new ChromeDriver(@"C:\Users\Anand.Gummadilli\Desktop");
-            //objLogger.logsEnabled = true;
-           
+            dr = new ChromeDriver();//@"C:\Users\Anand.Gummadilli\Desktop"
+                                    //objLogger.logsEnabled = true;
+
         }
         [Test]
         public void OpenGoogleSite()
